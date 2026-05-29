@@ -20,7 +20,7 @@ Pour rendre la démonstration propre et éviter de polluer l'écran avec les res
 * **Réseau sur-mesure :** Création de VPC personnalisés en tapant une plage IP (ex: `10.0.0.0/16`).
 * **Découpe des sous-réseaux :** Création de Subnets rattachés au VPC de votre choix (ex: `10.0.1.0/24`).
 * **Le Bonus :** Un bouton pour générer des passerelles Internet (IGW).
-* **L'arme secrète (La suppression en cascade) :** AWS refuse d'effacer un VPC s'il reste des choses dedans. Notre bouton "Supprimer VPC" intègre un script intelligent : il va d'abord scanner le VPC, supprimer proprement les sous-réseaux et les tables de routage cachées, puis détruire le VPC d'un coup. Plus de blocages !
+* **La suppression en cascade :** AWS refuse d'effacer un VPC s'il reste des choses dedans. Notre bouton "Supprimer VPC" intègre un script intelligent : il va d'abord scanner le VPC, supprimer proprement les sous-réseaux et les tables de routage cachées, puis détruire le VPC d'un coup. Plus de blocages !
 
 ---
 
