@@ -24,7 +24,7 @@ Pour rendre la démonstration propre et éviter de polluer l'écran avec les res
 
 ---
 
-## 🚀 Comment lancer la démo en 3 étapes
+## Comment lancer la démo en 3 étapes
 
 ### 1. Les clés d'accès
 Avoir ses identifiants AWS Académie à jour dans le fichier local habituel (`~/.aws/credentials`). *Sécurité oblige : ce dossier est protégé par notre `.gitignore` et ne sera jamais publié sur ce dépôt public.*
